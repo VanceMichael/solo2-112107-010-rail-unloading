@@ -1,0 +1,30 @@
+[
+  {
+    "ref": "Y1",
+    "wagon": "W-32",
+    "action": "take",
+    "time": "2026-11-27T07:20+08:00",
+    "party": "plant"
+  },
+  {
+    "ref": "Y2",
+    "wagon": "W-32",
+    "action": "release",
+    "time": "2026-11-27T11:20+08:00",
+    "party": "rail"
+  },
+  {
+    "ref": "Y3",
+    "wagon": "W-33",
+    "action": "take",
+    "time": "2026-11-27T09:30+08:00",
+    "party": "plant"
+  },
+  {
+    "ref": "Y4",
+    "wagon": "W-33",
+    "action": "release",
+    "time": "2026-11-27T12:30+08:00",
+    "party": "rail"
+  }
+]

@@ -1,0 +1,4 @@
+ticket,line,device,time,net_kg,side
+V1,east,S-42,2026-11-27T08:00+08:00,26000,unload
+V2,east,S-42,2026-11-27T08:45+08:00,12000,unload
+V3,east,S-43,2026-11-27T10:00+08:00,42000,unload

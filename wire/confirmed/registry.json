@@ -1,0 +1,23 @@
+[
+  {
+    "wagon": "W-32",
+    "device": "S-42",
+    "line": "east",
+    "from_time": "2026-11-01T00:00+08:00",
+    "until": null
+  },
+  {
+    "wagon": "W-33",
+    "device": "S-43",
+    "line": "east",
+    "from_time": "2026-11-01T00:00+08:00",
+    "until": null
+  },
+  {
+    "wagon": "W-51",
+    "device": "S-51",
+    "line": "east",
+    "from_time": "2026-11-01T00:00+08:00",
+    "until": null
+  }
+]

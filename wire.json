@@ -1,0 +1,147 @@
+{
+  "releases": {
+    "opening": {
+      "dispatch-index": {
+        "name": "opening/dispatch-index.json",
+        "type": "application/json"
+      },
+      "train-a": {
+        "name": "opening/train-a.json",
+        "type": "application/json"
+      },
+      "train-b": {
+        "name": "opening/train-b.json",
+        "type": "application/json"
+      },
+      "changes": {
+        "name": "opening/changes.json",
+        "type": "application/json"
+      },
+      "registry": {
+        "name": "opening/registry.json",
+        "type": "application/json"
+      },
+      "scale": {
+        "name": "opening/scale.csv",
+        "type": "text/csv"
+      },
+      "yard": {
+        "name": "opening/yard.json",
+        "type": "application/json"
+      },
+      "terms": {
+        "name": "opening/terms.json",
+        "type": "application/json"
+      },
+      "ledger": {
+        "name": "opening/ledger.json",
+        "type": "application/json"
+      }
+    },
+    "interim": {
+      "dispatch-index": {
+        "name": "interim/dispatch-index.json",
+        "type": "application/json"
+      },
+      "train-a": {
+        "name": "interim/train-a.json",
+        "type": "application/json"
+      },
+      "train-b": {
+        "name": "interim/train-b.json",
+        "type": "application/json"
+      },
+      "changes": {
+        "name": "interim/changes.json",
+        "type": "application/json"
+      },
+      "registry": {
+        "name": "interim/registry.json",
+        "type": "application/json"
+      },
+      "scale": {
+        "name": "interim/scale.csv",
+        "type": "text/csv"
+      },
+      "yard": {
+        "name": "interim/yard.json",
+        "type": "application/json"
+      },
+      "terms": {
+        "name": "interim/terms.json",
+        "type": "application/json"
+      },
+      "ledger": {
+        "name": "interim/ledger.json",
+        "type": "application/json"
+      }
+    },
+    "confirmed": {
+      "dispatch-index": {
+        "name": "confirmed/dispatch-index.json",
+        "type": "application/json"
+      },
+      "train-a": {
+        "name": "confirmed/train-a.json",
+        "type": "application/json"
+      },
+      "train-b": {
+        "name": "confirmed/train-b.json",
+        "type": "application/json"
+      },
+      "changes": {
+        "name": "confirmed/changes.json",
+        "type": "application/json"
+      },
+      "registry": {
+        "name": "confirmed/registry.json",
+        "type": "application/json"
+      },
+      "scale": {
+        "name": "confirmed/scale.csv",
+        "type": "text/csv"
+      },
+      "yard": {
+        "name": "confirmed/yard.json",
+        "type": "application/json"
+      },
+      "terms": {
+        "name": "confirmed/terms.json",
+        "type": "application/json"
+      },
+      "ledger": {
+        "name": "confirmed/ledger.json",
+        "type": "application/json"
+      },
+      "train-c": {
+        "name": "confirmed/train-c.json",
+        "type": "application/json"
+      }
+    }
+  },
+  "actions": {
+    "post": {
+      "line": "L7",
+      "result": "confirmed"
+    },
+    "credit": {
+      "line": "L8",
+      "result": "pending"
+    },
+    "inspect": {
+      "line": "L8",
+      "result": "confirmed"
+    }
+  },
+  "known": {
+    "opening": {},
+    "interim": {},
+    "confirmed": {}
+  },
+  "statusField": "result",
+  "inspectStates": {
+    "post": "confirmed",
+    "credit": "confirmed"
+  },
+  "lateAction": null
+}

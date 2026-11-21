@@ -1,0 +1,13 @@
+[
+  {
+    "ref": "C1",
+    "waybill": "F221",
+    "type": "reform",
+    "train": "Q18",
+    "predecessor": "Q17",
+    "from_wagon": "W-33",
+    "to_wagon": "W-33",
+    "kg": 42000,
+    "time": "2026-11-27T04:40+08:00"
+  }
+]

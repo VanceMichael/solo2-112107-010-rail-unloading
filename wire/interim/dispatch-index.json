@@ -1,0 +1,9 @@
+{
+  "waybill": "F221",
+  "version": "D2",
+  "pages": [
+    "train-a",
+    "train-b",
+    "train-c"
+  ]
+}

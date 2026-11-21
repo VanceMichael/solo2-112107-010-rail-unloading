@@ -1,0 +1,12 @@
+[
+  {
+    "line": "L1",
+    "wagon": "W-32",
+    "from_ref": "Y1",
+    "to_ref": "Y2",
+    "charged_minutes": 180,
+    "party": "plant",
+    "period": "2026-11",
+    "state": "confirmed"
+  }
+]

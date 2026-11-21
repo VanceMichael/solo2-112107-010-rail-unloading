@@ -1,0 +1,38 @@
+[
+  {
+    "ref": "Y1",
+    "wagon": "W-32",
+    "action": "take",
+    "time": "2026-11-27T07:20+08:00",
+    "party": "plant"
+  },
+  {
+    "ref": "Y2A",
+    "wagon": "W-32",
+    "action": "release",
+    "time": "2026-11-27T10:50+08:00",
+    "party": "rail",
+    "supersedes": "Y2"
+  },
+  {
+    "ref": "Y3",
+    "wagon": "W-33",
+    "action": "take",
+    "time": "2026-11-27T09:30+08:00",
+    "party": "plant"
+  },
+  {
+    "ref": "Y4",
+    "wagon": "W-33",
+    "action": "release",
+    "time": "2026-11-27T12:30+08:00",
+    "party": "rail"
+  },
+  {
+    "ref": "Y5",
+    "wagon": "W-51",
+    "action": "take",
+    "time": "2026-11-27T08:20+08:00",
+    "party": "plant"
+  }
+]

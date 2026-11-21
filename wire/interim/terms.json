@@ -1,0 +1,7 @@
+{
+  "currency": "CNY",
+  "freeMinutes": 60,
+  "fenPerMinute": 200,
+  "interval": "take-to-release",
+  "party": "party-during-interval"
+}
